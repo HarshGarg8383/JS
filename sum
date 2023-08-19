@@ -1,0 +1,11 @@
+console.log("Sum of Two Numbers:");
+
+let a = parseInt(prompt("Enter First number:"));
+let b = parseInt(prompt("Enter Second number:"));
+
+sum();
+
+function sum(){
+  let sum = a + b;
+  console.log("The Sum is " + sum);
+}
